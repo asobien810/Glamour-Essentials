@@ -94,13 +94,24 @@ body {
   padding: 2rem;
   margin-bottom: 2rem;
 }
+footer{
+  display:flex;
+  height:30px;
+  margin:20px 0 0 0;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  background-color: rgb(218, 179, 199);
+}
 
 #btn-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
+#home-btn{
+width:120px;
+}
 .nav-btn {
   border-radius: 30px;
   padding: 10px 20px;
@@ -149,7 +160,7 @@ nav button:hover {
   align-items: center;
 }
 
-.prod-cont{
+.prod-cont, .form-cont{
   margin:30px 10px;
   display:flex;
   flex-direction: column;
@@ -203,3 +214,4 @@ nav button:hover {
 #btn-nav {
   transition: all 0.3s ease-in-out;
 }
+
